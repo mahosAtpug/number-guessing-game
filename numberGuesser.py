@@ -19,10 +19,10 @@ while chance < 5:
         print("Your guess was Higher than the number : Try again with a number lower than : " , guess)
 
 
-    chance +- 1
+    chance += 1
 
-    if  chance > 5:
-        print("YOU LOSE , THE NUMBER WAS : " , number)
+if  chance > 5:
+    print("YOU LOSE , THE NUMBER WAS : " , number)
  
 
 
